@@ -10,7 +10,7 @@ export const Hero = () => {
         <h1 className="text-5xl font-bold font-serif leading-tight">Exporting Nature’s Best to Every Corner of the Globe</h1>
         <p className='text-lg mb-8 tracking-wide'>Fresh, high-quality agricultural produce, sourced responsibly and delivered reliably to markets around the world</p>
         <div>
-          <Button label={'Request a Quote'}/>
+          <Button variant='primary' label={'Request a Quote'}/>
         </div>
       </div>
         <div className='basis-full hidden lg:flex'>
