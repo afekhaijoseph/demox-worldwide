@@ -6,12 +6,12 @@ const Contact = () => {
   return (
     <div id='contact' className="bg-contain" style={{backgroundImage: `url(${threadBg})`}}>
       <div className='w-full h-full bg-lightBackground/60 flex items-center'>
-      <div className='w-10/12 lg:w-9/12 flex flex-col lg:flex-row mx-auto gap-12 my-20'>
+      <div className='w-11/12 lg:w-9/12 flex flex-col lg:flex-row mx-auto gap-12 my-20'>
         <div className='basis-full'>  
           <Subheading variant='secondary'> Contact Us</Subheading>
               <h2 className='text-4xl font-serif font-bold my-4'>Let’s Build a Reliable Global Partnership</h2>
               <p className='mb-10'>Have a product inquiry or ready to request a quote? Our team is available to provide detailed information, pricing, and export guidance tailored to your needs.</p>
-              <div className='flex flex-col md:flex-row gap-6'>
+              <div className='flex flex-col md:flex-row gap-6 w-fit mx-auto'>
                 <div className='bg-lightBackground flex flex-col items-center basis-full gap-3 py-10'>
                   <div className='bg-darkBackground rounded-lg p-4 text-secondary'>
                     <ScrollText />

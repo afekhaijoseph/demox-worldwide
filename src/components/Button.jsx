@@ -17,9 +17,9 @@ const Button = ({
 
 
   return (
-    <button className={`${base} ${variants[variant]} ${sizes[size]} ${className}`}>
+    <a href="https://wa.me/2349030865030" className={`${base} ${variants[variant]} ${sizes[size]} ${className}`}>
       {label}
-    </button>
+    </a>
   );
 };
 

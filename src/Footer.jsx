@@ -26,14 +26,16 @@ const Footer = () => {
 
             <div className='text-secondary basis-full'>
                 <h6 className='text-2xl font-serif font-bold mb-4'>Contact Info</h6>
-                <p>demoxworldwideltd@gmail.com</p>
-                <p>09030865030</p>
-                <p>No 24, Burma road, Apapa, Lagos</p>
+                <div className='flex flex-col gap-1'>
+                  <p>demoxworldwideltd@gmail.com</p>
+                  <p>09030865030</p>
+                  <p>No 24, Burma road, Apapa, Lagos</p>
+                </div>
             </div>
 
             <div className='basis-full text-secondary'>
                 <h6 className='text-2xl font-serif font-bold mb-4'>Quick Links</h6>
-                <div className='flex flex-col'>
+                <div className='flex flex-col gap-1'>
                     <a href='#about' className='hover:text-secondAccent' >About Us</a>
                     <a href='#our-products' className='hover:text-secondAccent'>Our Products</a>
                     <a href='#why-choose-us' className='hover:text-secondAccent'>Why Choose Us</a>
@@ -46,7 +48,7 @@ const Footer = () => {
             
             <div className='basis-full text-secondary'>
                 <h6 className='text-2xl font-serif font-bold mb-4'>Our Products</h6>
-                <ul>
+                <ul className='flex flex-col gap-1'>
                     <li>Cocoa</li>
                     <li>Cashew</li>
                     <li>Ginger</li>
