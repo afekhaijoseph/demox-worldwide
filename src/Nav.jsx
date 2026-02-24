@@ -8,7 +8,10 @@ const Nav = () => {
         <a href='/'>
         <div  className='flex flex-col gap-1 items-center'>
             <img className='w-10 lg:w-16' src={demoxlogo} alt="demox worldwide limited logo" />
-            <p className='text-accent font-serif text-sm'>Demox</p>
+            <div className='flex flex-col gap-0'> 
+              <p className='text-accent font-serif text-lg uppercase'>Demox</p>
+              <p className='text-secondary text-xs uppercase'>worldwide</p>
+            </div>
         </div>
         </a>
 
