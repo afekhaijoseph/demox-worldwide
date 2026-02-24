@@ -6,10 +6,13 @@ const Footer = () => {
     <div className='bg-darkBackground py-20'>
         <div className="w-11/12 mx-auto flex flex-col gap-8 lg:flex-row items-start">
             <div className='flex flex-col gap-6 basis-full'>
-                 <a href='/' className='w-fit flex flex-col gap-1 items-center'>
-                    <img className='w-10 lg:w-16' src={demoxLogo} alt="demox worldwide limited logo" />
-                    <p className='text-accent font-serif'>Demox</p>
-                </a>
+                <div  className='flex flex-col gap-1 items-center'>
+                            <img className='w-14 lg:w-16' src={demoxLogo} alt="demox worldwide limited logo" />
+                            <div className='flex flex-col gap-0 items-center'> 
+                            <p className='text-accent font-serif text-xs uppercase'>Demox</p>
+                            <p className='text-secondary text-xs uppercase'>worldwide</p>
+                </div>
+                </div>
                 <p className='text-secondary'>Your trusted link between Africa’s rich resources and global demand.</p>
                 <div className='flex items-center gap-2'>
                     <div className='border-2 border-dashed rounded-full p-2 text-accent'>
