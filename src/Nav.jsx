@@ -5,9 +5,11 @@ import { Menu } from 'lucide-react'
 const Nav = () => {
   return (
     <nav className='flex justify-between items-center px-10 py-3 bg-darkBackground'>
-        <a href='/' className='flex flex-col gap-1 items-center'>
-            <img className='w-20' src={demoxlogo} alt="demox worldwide limited logo" />
-            <p className='text-accent font-serif'>Demox Worldwide</p>
+        <a href='/'>
+        <div  className='flex flex-col gap-1 items-center'>
+            <img className='w-10 lg:w-16' src={demoxlogo} alt="demox worldwide limited logo" />
+            <p className='text-accent font-serif'>Demox</p>
+        </div>
         </a>
 
         <div className='lg:flex gap-10 text-secondary tracking-wide hidden'>

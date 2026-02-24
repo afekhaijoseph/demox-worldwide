@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="w-11/12 mx-auto flex flex-col gap-8 lg:flex-row items-start">
             <div className='flex flex-col gap-6 basis-full'>
                  <a href='/' className='w-fit flex flex-col gap-1 items-center'>
-                    <img className='w-20' src={demoxLogo} alt="demox worldwide limited logo" />
+                    <img className='w-10 lg:w-16' src={demoxLogo} alt="demox worldwide limited logo" />
                     <p className='text-accent font-serif'>Demox Worldwide</p>
                 </a>
                 <p className='text-secondary'>Your trusted link between Africa’s rich resources and global demand.</p>
