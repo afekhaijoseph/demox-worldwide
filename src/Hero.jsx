@@ -1,5 +1,5 @@
 import demoxHero from '../src/assets/images/demox-hero.webp'
-import cashew from '../src/assets/images/demox-world.jpg'
+import cashew from '../src/assets/images/demox-world.webp'
 import Button from './components/Button'
 export const Hero = () => {
   return (
