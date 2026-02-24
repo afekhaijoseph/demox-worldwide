@@ -6,7 +6,6 @@ export const Product = ({ product }) => {
       className="w-full h-[400px] bg-cover bg-center rounded-xl relative group overflow-hidden"
       style={{ backgroundImage: `url(${product.image})` }}
     >
-      {/* Gradient Overlay */}
       <div
         className="
           absolute inset-0
@@ -17,7 +16,7 @@ export const Product = ({ product }) => {
       />
 
       {/* Text */}
-      <div className="absolute bottom-4 left-4 text-secondary ">
+      <div className="absolute bottom-8 left-4 text-secondary ">
        <p className="text-3xl mb-4">{product.name}</p>
        <Button label={'Learn more'} variant="primary"/>
        
