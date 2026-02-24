@@ -8,7 +8,7 @@ const Nav = () => {
         <a href='/'>
         <div  className='flex flex-col gap-1 items-center'>
             <img className='w-10 lg:w-16' src={demoxlogo} alt="demox worldwide limited logo" />
-            <p className='text-accent font-serif'>Demox</p>
+            <p className='text-accent font-serif text-sm'>Demox Worldwide</p>
         </div>
         </a>
 

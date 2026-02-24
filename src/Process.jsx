@@ -1,5 +1,8 @@
 import Subheading from "./components/Subheading"
-import demoxLogo from './assets/images/demox-logo.png'
+import clientone from './assets/images/clientone.png'
+import clienttwo from './assets/images/clienttwo.png'
+import clientthree from './assets/images/clientthree.png'
+import clientfour from './assets/images/clientfour.png'
 import Button from "./components/Button"
 
 const Process = () => {
@@ -57,16 +60,16 @@ const Process = () => {
                 </div>
                 <div className="bg-[#235a48] my-4 rounded-xl p-4 flex justify-between">
                     <div className="items-center gap-1">
-                        <div className="flex ml-4">
-                            <img className="w-12 -ml-5" src={demoxLogo} alt="face of business owners" />
-                            <img className="w-12 -ml-5" src={demoxLogo} alt="face of business owners" />
-                            <img className="w-12 -ml-5" src={demoxLogo} alt="face of business owners" />
-                            <img className="w-12 -ml-5" src={demoxLogo} alt="face of business owners" />
+                        <div className="flex ml-4 mb-2">
+                            <img className="w-12 -ml-5 rounded-full" src={clientone} alt="face of business owners" />
+                            <img className="w-12 -ml-5 rounded-full" src={clienttwo} alt="face of business owners" />
+                            <img className="w-12 -ml-5 rounded-full" src={clientthree} alt="face of business owners" />
+                            <img className="w-12 -ml-5 rounded-full" src={clientfour} alt="face of business owners" />
                         </div>
                         <p>Align with businesses that choose quality</p>
                     </div>
                     <div>
-                        <Button label={'Get A Quote'}/>
+                        <Button label={'Request a Quote'}/>
                     </div>
                 </div>
                 </div>

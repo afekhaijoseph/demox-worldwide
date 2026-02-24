@@ -5,7 +5,7 @@ import {Globe, Cog, ScrollText, Truck, Handshake } from 'lucide-react'
 const WhyChooseUs = () => {
   return (
     <div id='why-choose-us' className='flex items-center bg-lightBackground text-gray-900'>
-        <div className='lg:w-9/12 flex flex-col lg:flex-row mx-auto rounded-2xl items-center my-20 border'>
+        <div className='lg:w-9/12 flex flex-col lg:flex-row mx-auto rounded-2xl items-center mt-20 mb-28 border'>
           <div className='basis-full'>
             <img className='rounded-3xl' src={containers} alt="why choose us image" />
           </div>

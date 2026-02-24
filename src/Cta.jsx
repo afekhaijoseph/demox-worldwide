@@ -10,7 +10,7 @@ const Cta = () => {
             <div>
                 <h2 className='text-5xl text-secondary font-serif font-bold mb-8 text-center'>Ready to Source Premium Agricultural Produce?</h2>
                 <div className='flex items-center'>
-                    <Button label={'Get A Quote'} />
+                    <Button label={'Request a Quote'} />
                 </div>
             </div>
         </div>

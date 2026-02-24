@@ -28,7 +28,7 @@ const About = () => {
         quality standards for safety, consistency, and reliability. Our operations are built on transparency, 
         efficiency, and long-term relationships.
       </p>
-      <Button variant='secondary' label={'Learn More'}/>
+      <Button variant='secondary' label={'Request a Quote'}/>
     </div>
   </div>
 </div>

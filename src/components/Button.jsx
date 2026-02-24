@@ -4,7 +4,7 @@ const Button = ({
   size = "sm", 
   className = "",
 }) => {
-  const base ='bg-accent px-4 py-2 rounded-tl-xl rounded-br-xl mx-auto text-secondary border-2 border-accent';
+  const base ='bg-accent px-4 py-2 rounded-tl-xl rounded-br-xl mx-auto text-secondary border-2 border-accent font-bold';
 
   const variants = {
     primary : "hover:bg-transparent hover:border-2 hover:border-secondary",
