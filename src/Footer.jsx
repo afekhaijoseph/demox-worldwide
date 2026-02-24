@@ -1,5 +1,5 @@
 import demoxLogo from './assets/images/demox-logo.png'
-import { FaFacebookF, FaInstagram, FaLinkedin, FaLinkedinIn} from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaLinkedinIn} from "react-icons/fa";
 
 const Footer = () => {
   return (
