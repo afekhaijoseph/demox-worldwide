@@ -7,9 +7,9 @@ const Nav = () => {
     <nav className='flex justify-between items-center px-10 py-3 bg-darkBackground'>
         <a href='/'>
         <div  className='flex flex-col gap-1 items-center'>
-            <img className='w-10 lg:w-16' src={demoxlogo} alt="demox worldwide limited logo" />
-            <div className='flex flex-col gap-0'> 
-              <p className='text-accent font-serif text-base uppercase'>Demox</p>
+            <img className='w-14 lg:w-16' src={demoxlogo} alt="demox worldwide limited logo" />
+            <div className='flex flex-col gap-0 items-center'> 
+              <p className='text-accent font-serif text-xs uppercase'>Demox</p>
               <p className='text-secondary text-xs uppercase'>worldwide</p>
             </div>
         </div>
