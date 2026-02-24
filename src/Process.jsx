@@ -58,17 +58,17 @@ const Process = () => {
                     </div>
                 </div>
                 </div>
-                <div className="bg-[#235a48] my-4 rounded-xl p-4 flex flex-col md:flex-row justify-between items-center">
-                    <div className="flex flex-col md:flex-row items-center gap-2">
+                <div className="bg-[#235a48] my-4 rounded-xl p-4 flex flex-col md:flex-row justify-between items-center gap-6">
+                    <div className="flex flex-col md:flex-row items-center">
                         <div className="flex ml-4 mb-4">
                             <img className="w-12 -ml-5 rounded-full" src={clientone} alt="face of business owners" />
                             <img className="w-12 -ml-5 rounded-full" src={clienttwo} alt="face of business owners" />
                             <img className="w-12 -ml-5 rounded-full" src={clientthree} alt="face of business owners" />
                             <img className="w-12 -ml-5 rounded-full" src={clientfour} alt="face of business owners" />
                         </div>
-                        <p className="mb-2 text-center">Align with businesses that choose quality</p>
+                        <p className="text-center">Align with businesses that choose quality</p>
                     </div>
-                    <div>
+                    <div className="pb-2">
                         <Button label={'Request a Quote'}/>
                     </div>
                 </div>
