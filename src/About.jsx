@@ -5,10 +5,15 @@ import Subheading from './components/Subheading'
 const About = () => {
   return (
 <div id='about' className="bg-lightBackground py-20">
-  <div className="w-9/12 flex flex-col mx-auto justify-between items-center gap-16 lg:flex-row">
-    <div className='flex gap-3 basis-full'>
-        <img className='w-full aspect-auto rounded-2xl' src={aboutOne} alt="" />
-        <img className='w-full aspect-auto rounded-2xl' src={aboutTwo} alt="" />
+  <div className="w-10/12 lg:9/12 flex flex-col mx-auto justify-between items-center gap-16 lg:flex-row">
+    <div className='flex gap-3 w-full lg:basis-full'>
+      <div>
+        <img className='rounded-2xl' src={aboutOne} alt="" />
+      </div>
+      <div>
+        <img className='rounded-2xl' src={aboutTwo} alt="" />
+      </div>
+        
     </div>
     <div className='basis-full'>
       <Subheading variant='primary'>About Us</Subheading>
