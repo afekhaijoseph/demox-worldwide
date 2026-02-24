@@ -1,4 +1,4 @@
-import globalBg from './assets/images/global.jpg'
+import globalBg from './assets/images/global.webp'
 import Button from './components/Button'
 
 
