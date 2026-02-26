@@ -1,11 +1,15 @@
 import demoxlogo from '../src/assets/images/demox-logo.png'
 import Button from './components/Button'
 import { Menu } from 'lucide-react'
+import { useState } from 'react'
+import MobileNav from './components/MobileNav'
 
 const Nav = () => {
+  const [isOpen, setIsOpen] = useState(false);
   return (
-    <nav className='flex justify-between items-center px-10 py-3 bg-darkBackground'>
-        <a href='/'>
+    <header className='sticky top-0 z-50' >
+          <nav className='flex justify-between items-center px-10 py-3 bg-darkBackground'>
+        <a href='/'> 
         <div  className='flex flex-col gap-1 items-center'>
             <img className='w-14 lg:w-16' src={demoxlogo} alt="demox worldwide limited logo" />
             <div className='flex flex-col gap-0 items-center'> 
@@ -22,16 +26,18 @@ const Nav = () => {
                     <a href='#our-process' className='hover:text-secondAccent'>Our Process</a>
                     <a href='#faqs' className='hover:text-secondAccent'>Faqs</a>
                     <a href='#contact' className='hover:text-secondAccent'>Contact</a>
-                </div>
+          </div>
 
         <div className='hidden lg:flex'>
           <Button variant='primary' label = {'Request a quote'}/>
         </div>
-
-        <div className='text-secondary lg:hidden'>
+        <div onClick={() => setIsOpen((isOpen) => !isOpen )} className='text-secondary lg:hidden'>
           <Menu />
         </div>
     </nav>
+    <MobileNav closeMenu={()=>setIsOpen(false)} isOpen = {isOpen} />
+    </header>
+
   )
 }
 

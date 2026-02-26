@@ -10,6 +10,7 @@ import Faqs from './Faqs'
 import Contact from './Contact'
 import Footer from './Footer'
 
+
 function App() {
   return (
     <div className='font-sans first-letter tracking-wide'>

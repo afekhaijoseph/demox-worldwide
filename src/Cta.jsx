@@ -4,7 +4,7 @@ import Button from './components/Button'
 
 const Cta = () => {
   return (
-    <div className='h-[70vh] bg-cover bg-no-repeat bg-bottom' style={{ backgroundImage: `url(${globalBg})` }}>
+    <div className='h-[80vh] bg-cover bg-no-repeat bg-bottom' style={{ backgroundImage: `url(${globalBg})` }}>
         <div className='bg-darkBackground/90 h-full'>
         <div className='flex flex-col items-center justify-center h-full'>
             <div>
