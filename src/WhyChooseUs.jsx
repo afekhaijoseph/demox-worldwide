@@ -4,13 +4,13 @@ import {Globe, Cog, ScrollText, Truck, Handshake } from 'lucide-react'
 
 const WhyChooseUs = () => {
   return (
-    <div id='why-choose-us' className='flex items-center bg-lightBackground text-gray-900 relative'>
-        <div className='lg:w-9/12 flex flex-col lg:flex-row mx-auto rounded-2xl items-center mt-20 mb-28 border'>
+    <div id='why-choose-us' className='flex items-center bg-lightBackground text-gray-900 relative pt-20 pb-[50vh] lg:pb-20'>
+        <div className='lg:w-9/12 flex flex-col lg:flex-row mx-auto rounded-2xl items-center border'>
           <div className='basis-full'>
-            <img className='rounded-3xl' src={containers} alt="why choose us image" />
+            <img className='max-h-[60vh] w-auto rounded-3xl' src={containers} alt="why choose us image" />
           </div>
           <div className='lg:basis-full w-full relative'>
-            <div className='w-full py-4 px-10 bg-accent rounded-2xl absolute top-1/2 md:top-1 lg:top-1/2 -translate-y-1/2 lg:-left-10'>
+            <div className='w-full py-4 px-10 bg-accent rounded-2xl absolute top-32 md:top-1 lg:top-1/2 -translate-y-1/2 lg:-left-10'>
             <Subheading variant='secondary'>Why Choose Us</Subheading>    
             <h2 className='text-4xl font-bold font-serif my-4'>Global Buyers Trust Demox</h2>
             <div>
