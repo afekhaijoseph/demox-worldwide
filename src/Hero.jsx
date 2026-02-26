@@ -1,7 +1,10 @@
 import demoxHero from '../src/assets/images/demox-hero.webp'
 import cashew from '../src/assets/images/demox-world.webp'
 import Button from './components/Button'
+
 export const Hero = () => {
+
+
   return (
     <div className="w-full h-screen bg-cover text-secondary" style={{ backgroundImage: `url(${demoxHero})`}}>
       <div className='h-full bg-black/70 flex items-center '>
