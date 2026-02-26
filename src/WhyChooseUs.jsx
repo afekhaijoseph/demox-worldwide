@@ -1,6 +1,6 @@
 import containers from '../src/assets/images/containers.jpg'
 import Subheading from './components/Subheading'
-import {Globe, Cog, ScrollText, Truck, Handshake } from 'lucide-react'
+import {Globe, Cog, ScrollText, Truck} from 'lucide-react'
 
 const WhyChooseUs = () => {
   return (
