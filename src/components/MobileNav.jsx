@@ -1,21 +1,7 @@
 import { X } from "lucide-react"
-import Button from "./Button";
 
 const MobileNav = ({closeMenu, isOpen}) => {
-   function outer (){
-    let count = 0;
 
-    function inner (){
-      count++
-      return count
-    }
-    return inner
-  }
-
-  const counter = outer()
-  console.log(counter())
-  console.log(counter())
-  console.log(counter())
 
   return (
         <div className={`h-screen w-[70vw] bg-darkBackground right-0 top-0 overflow-hidden transform transition-transform duration-300 fixed z-50 ${
